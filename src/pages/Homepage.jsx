@@ -63,7 +63,7 @@ const Homepage = () => {
             </button>
           </form>
         </div>
-        <div className="w-full lg:w-1/2 p-4">
+        <div className="w-full lg:w-1/2 p-0 lg:p-4">
           {loadingTodayWeather ? (
             <div className="py-24 text-center">
               <BeatLoader color="#ea580c" />
@@ -73,7 +73,7 @@ const Homepage = () => {
           )}
         </div>
       </div>
-      <div className="p-4">
+      <div className="p-0 lg:p-4">
         {loadingForecastWeather ? (
           <div className="py-24 text-center">
             <BeatLoader color="#ea580c" />
