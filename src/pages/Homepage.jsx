@@ -11,10 +11,10 @@ const Homepage = () => {
   const [loadingTodayWeather, setLoadingTodayWeather] = useState(false);
   const [loadingForecastWeather, setLoadingForecastWeather] = useState(false);
 
-  const API_URL_CURRENT = `http://api.weatherapi.com/v1/current.json?key=4c43bf16829c40f8a8a152401230502&q=${location}&aqi=no
+  const API_URL_CURRENT = `https://api.weatherapi.com/v1/current.json?key=4c43bf16829c40f8a8a152401230502&q=${location}&aqi=no
   `;
 
-  const API_URL_FORECAST = `http://api.weatherapi.com/v1/forecast.json?key=4c43bf16829c40f8a8a152401230502&q=${location}&days=7&aqi=no&alerts=no`;
+  const API_URL_FORECAST = `https://api.weatherapi.com/v1/forecast.json?key=4c43bf16829c40f8a8a152401230502&q=${location}&days=7&aqi=no&alerts=no`;
 
   const onSubmit = (e) => {
     e.preventDefault();
