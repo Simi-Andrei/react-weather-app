@@ -6,7 +6,7 @@ const ForecastCarousel = ({ forecast }) => {
   return (
     <div>
       {forecast.location && (
-        <p className="font-bold text-md lg:text-xl">
+        <p className="font-bold text-md lg:text-xl my-4">
           Next 7 days in {forecast.location.name}
         </p>
       )}
